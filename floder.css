@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    margin: 8px;
+    background-image: url(p0gpmw0t.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size:auto 100%;
+    min-height: 100vh;
+}
+
+#header{
+   color: #ffffff;
+   text-align: center; 
+   display: none;
+}
+
+h1{
+    text-align: center;
+    display: inline block;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+p{
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+#register{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.bbc-register h1, .bbc-register h2{
+    margin-right: unset;
+}
+
+.bbc-register{
+    width: 100%;
+    max-width: 400px;
+}
+
+#intro{
+    width: 100%;
+    max-width: 400px;
+    margin-left: 120px;
+}
+
+#GO{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    /* margin-left: 80px; */
+    padding: 16px;
+    background-color: #0000ff;
+    color: #ffffff; 
+}
+
+p a{
+    color: #ffffff;
+}
+
+#Email{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+p{
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+}
+
+#close{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    padding: 20px;
+    color: black;
+    background: #eee;
+    text-decoration: none;
+    font-weight: bold;
+    font: size 0%;
+}
+
+#bbc-logo{
+    background: #ffffff;
+    width: 150px;
+}
+
+#bbc-register{
+    width: 50%;
+}

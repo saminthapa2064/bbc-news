@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+  }
+  
+  .item{
+  box-shadow: 0 1px 8px rgba(0,0,0,.16);
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 75px;
+    margin-bottom: 10px;
+    line-height: 2
+  }
+  
+  .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+   background: #feab29; 
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    opacity: 0;
+    transition: opacity linear 300ms;
+  }
+  
+  .owl-carousel:hover .owl-nav button.owl-prev, .owl-carousel:hover .owl-nav button.owl-next{
+    opacity: 1;
+  }
+  
+  .owl-carousel .owl-nav button.owl-prev{
+    left: 15px;
+  }
+  
+  .owl-carousel .owl-nav button.owl-next{
+    right: 15px
+  }
+  
+  .owl-carousel button.owl-dot{
+    width: 8px;
+    height: 8px;
+    background: #ddd;
+    margin-right: 8px;
+    border-radius: 15px;
+    transition: all linear .3s;
+  }
+  
+  .owl-carousel button.owl-dot.active{
+    background: #feab29;
+    width: 20px;
+  }
+  
+  .owl-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  
+  
+  .owl-carousel .owl-item .student-image img{
+     width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .student-image{
+    margin-top: -75px;
+    margin-bottom: 20px; 
+  }
+  
+  .d-flex{
+    display: flex;
+  }
+  .d-flex > div:first-child{
+    width: 100px;
+  }
+  .d-flex > div:last-child{
+    width: calc(100% - 100px);
+  }
+  
+  .container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  
+  h3.student-name{
+    font-size: 16px;
+    margin-top: 10px;
+      font-family: source sans pro,helvetica neue light,helvetica neue,helvetica,arial,sans-serif;
+      font-weight: 600;
+  }
+  
+  .designation{
+    font-size: 14px;
+  line-height: 1.25;
+  }
